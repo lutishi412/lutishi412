@@ -1,0 +1,5 @@
+AVA_OPTS="${JAVA_OPTS} ${clientID}" 
+JAVA_OPTS="${JAVA_OPTS} ${subName}" 
+JAVA_OPTS="${JAVA_OPTS} ${selector}" 
+JAVA_OPTS="${JAVA_OPTS} ${durable}" 
+JAVA_OPTS="${JAVA_OPTS} ${transactional}"
