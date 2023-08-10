@@ -1,0 +1,16 @@
+
+void del_xy(SqList &L,ElemType x, ElemType y)
+{
+    int i=0,k=0;
+    while(i<L.length)
+    {
+        if(L.data[i]>=x&&L.data[i]<=y)
+           k++;
+        else
+           L.data[i-k]=L.data[i];
+    }
+    L.length=L.length-k;
+
+————————————————
+版权声明：本文为CSDN博主「你别管我了」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/2201_75571291/article/details/128624606
